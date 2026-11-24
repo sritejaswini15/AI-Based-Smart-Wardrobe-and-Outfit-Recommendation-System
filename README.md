@@ -1,4 +1,4 @@
-# Clueless — Your AI Personal Stylist
+# Clueless
 
 > *"As if I'd leave the house without checking Clueless first."*
 
