@@ -542,7 +542,4 @@ curl -X POST http://127.0.0.1:8000/api/users/generate-outfit \
 ## Known Limitations
 
 - **Try-on supports tops only**, and depends on public Hugging Face Spaces, which can be busy or rate-limited.
-- **Shopping results are localized to India** (`gl=in`, prices in ₹).
-- **Images are stored as base64 in PostgreSQL**. That keeps things simple but makes rows large; object storage such as S3 or Cloudinary would scale better.
-- **Without AI keys**, classification and analysis return placeholder data. This is fine for UI development but not real results.
-- **No automated test suite yet.** Vitest and Testing Library are configured in the frontend, but no tests have been written.
+- **Shopping results are localized to India**.
