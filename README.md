@@ -99,6 +99,12 @@ Features include:
 - Editable AI-generated attributes.
 - Clothing deletion and management.
 
+  <p align="center">
+  <img src="docs/screenshots/wardrobe-list.jpg" alt="Wardrobe list view with AI-generated item names" width="90%" />
+  <br />
+  <sub>Every item is named and tagged by the AI on upload, e.g. "Cropped Butterfly Graphic Ringer Tee"</sub>
+</p>
+
 ### 4. Outfit Studio
 
 The Outfit Studio allows users to manually combine clothing items to create outfits.
@@ -130,6 +136,12 @@ Users can also upload an inspiration image or select an existing moodboard image
 
 The system evaluates clothing attributes and visual similarity to identify suitable combinations. Previously generated combinations are excluded to provide different recommendations.
 
+<p align="center">
+  <img src="docs/screenshots/generate-outfit-result.jpg" alt="Outfit generated from the wardrobe" width="90%" />
+  <br />
+  <sub>A complete outfit built from clothes already in the wardrobe</sub>
+</p>
+
 ### 6. AI-Based Personal Style Analysis
 
 Users can upload a photograph to receive personalized appearance-related styling recommendations.
@@ -145,6 +157,12 @@ The analysis includes:
 - Styling suggestions for different garment categories.
 
 The analysis results are saved to the user's profile for subsequent personalization.
+
+<p align="center">
+  <img src="docs/screenshots/ai-stylist-colors.jpg" alt="Color palette analysis" width="90%" />
+  <br />
+  <sub>Color Palette tab: best colors and colors to avoid for a Soft Summer</sub>
+</p>
 
 ### 7. AI Fashion Stylist Chat
 
@@ -173,6 +191,12 @@ Workflow:
 
 The current implementation supports tops.
 
+<p align="center">
+  <img src="docs/screenshots/try-on-result.jpg" alt="Virtual try-on result" width="90%" />
+  <br />
+  <sub>The selected top from the wardrobe, tried on with IDM-VTON</sub>
+</p>
+
 ### 9. Fashion Shopping Hub
 
 The Shopping Hub provides product discovery through Google Shopping search results using SerpAPI.
@@ -190,6 +214,12 @@ Features include:
 - Image-based search refinement.
 
 Shopping results are localized to India and displayed with Indian pricing.
+
+<p align="center">
+  <img src="docs/screenshots/shopping-find-similar.jpg" alt="Shopping Hub results" width="90%" />
+  <br />
+  <sub>Live results for "black top" with View on Website and Find Similar</sub>
+</p>
 
 ### 10. Wishlist, Moodboard and Profile
 
